@@ -8,6 +8,9 @@ body {
 }
 body{
     display: flex;
+    font-family: "Work Sans";
+    font-style: normal;
+    letter-spacing: normal;
 }
 /* sol start */
 .solmenu{
@@ -29,11 +32,8 @@ body{
 }
 .solmenu .profil .resim h1{
     color: #263238;
-    font-family: "Work Sans";
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 62px;
     padding-left: 12px;
 }
@@ -41,11 +41,8 @@ body{
     border-radius: 5px;
     background-color: #01579b;
     color: #ffffff;
-    font-family: "Work Sans";
     font-size: 15px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: normal;
     text-transform: uppercase;
     padding: 20px 40px;
@@ -57,11 +54,8 @@ body{
 }
 .solmenu .menu li a {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 62px;
     text-decoration: none;
     display: block;
@@ -75,6 +69,7 @@ body{
     background-color: #e4e7e9;
     font-weight: 600;
 }
+
 /* sol finish */
 
 /* sag1 start */
@@ -90,21 +85,15 @@ background-color: #ffffff;
 }
 .sagmenu .ust .ust-title h1 {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 32px;
     font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     margin-bottom: 27px;
 }
 .sagmenu  .ust .text p {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 12px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
 }
 .sagmenu  .ust .box1{
@@ -137,26 +126,19 @@ background-color: #ffffff;
 .sagmenu .ust .title  {
     margin-bottom: 11px;
     color: #263238;
-    font-family: "Work Sans";
     font-size: 13px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
 }
 .sagmenu .ust .money  {
     margin: 0px;
     margin-bottom: 41px;
     font-weight: 700;
-    font-family: "Work Sans";
     font-size: 28px;
 }.sagmenu .ust a {
     text-decoration: none;
     color: #01579b;
-    font-family: "Work Sans";
     font-size: 15px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: normal;
 }
 /* sag1 finish*/
@@ -169,11 +151,8 @@ background-color: #ffffff;
 
 .sagmenu .alt .alt-title h1{
     color: #263238;
-    font-family: "Work Sans";
     font-size: 32px;
     font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     margin-bottom: 30px;
 }
@@ -197,52 +176,37 @@ background-color: #ffffff;
 .sagmenu .alt h3 {
     opacity: 0.7;
     color: #263238;
-    font-family: "Work Sans";
     font-size: 15px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
 .sagmenu .alt p {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 18px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     text-transform: uppercase;
 }
 .sagmenu .alt time{
     color: #263238;
-    font-family: "Work Sans";
     font-size: 18px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     text-transform: uppercase;
 }
 .sagmenu .alt h1 {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 18px;
     font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
     margin-bottom: 28px;
 }
 .sagmenu .alt ul li .money {
     color: #263238;
-    font-family: "Work Sans";
     font-size: 25px;
     font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 19px;
 }
 .sagmenu .alt .listHeader{
