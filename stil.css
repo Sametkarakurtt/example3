@@ -19,8 +19,11 @@ body{
     box-shadow: -1px 10px 106px rgba(9, 39, 65, 0.19);
     background-color: #ffffff;
     box-sizing: border-box;
-    padding:66px 64px 428px 65px;
     margin-right: 10px;
+    padding-top: 66px;
+}
+.solmenu .profil {
+    padding: 0 64px;
 }
 .solmenu .resim {
     align-items: center;
@@ -49,35 +52,48 @@ body{
     margin-bottom: 56px;
     border:0px;
 }
-.solmenu .menu li {
-    margin-bottom:50px;
-}
 .solmenu .menu li a {
+    color: inherit;
+    text-decoration: none;
+    border-left: 1px solid transparent;
+}
+.solmenu .menu li  {
     color: #263238;
     font-size: 20px;
     font-weight: 400;
-    line-height: 62px;
     text-decoration: none;
     display: block;
+    padding: 20px 0 20px 64px;
+    border-left: transparent;
+    box-sizing: content-box;
 }
 .solmenu .menu li a i {
     margin-right: 9px;
 }
-.solmenu .menu li a:hover {
-    border-left: 5px solid #01579b;
-    padding-left: 20px;
+.solmenu .menu li:hover ,.solmenu .menu li.active {
     background-color: #e4e7e9;
     font-weight: 600;
+
+
 }
+.solmenu .menu li:hover > a,.solmenu .menu li.active > a {
+border-left-color: #01579b;
+}
+.solmenu .menu li > a {
+    padding-left: 20px;
+    border-left: 5px solid transparent;
+    display: block;
+}
+.solmenu .menu li:hover,
 
 /* sol finish */
 
 /* sag1 start */
 .sagmenu {
     width: 70%;
-max-width: 1033px;
 box-shadow: -2px 21px 51px rgba(9, 39, 65, 0.23);
 background-color: #ffffff;
+flex-grow: 1;
 }
 .sagmenu .ust{
     padding: 63px 73px 77px 73px;
@@ -90,33 +106,29 @@ background-color: #ffffff;
     line-height: 19px;
     margin-bottom: 27px;
 }
-
-.sagmenu  .ust .box1{
-    max-width: 271px;
+.box-wrapper{
+    display: flex;
+}
+.box{
+    width: calc(100%/3);
     border: 1px solid #cfd8dc;
-    background-color: #ffffff;
-    border-left: 5px solid #26a69a;
-    padding:26px  127px 26px 30px;
+    border-left: 5px solid #cfd8dc;
+    padding:26px  0px 26px 30px;
     margin-right: 37px;
     display: inline-block;
     margin-bottom: 27px;
 }
-.sagmenu  .ust .box2{
-    max-width: 271px;
-    border: 1px solid #cfd8dc;
-    background-color: #ffffff;
-    border-left: 5px solid #ff8f00;
-    padding:26px  127px 26px 30px;
-    display: inline-block;
-    margin-right: 37px;
+.box:last-child{
+    margin-right: 0;
 }
-.sagmenu .ust .box3{
-    max-width: 271px;
-    border: 1px solid #cfd8dc;
-    background-color: #ffffff;
-    border-left: 5px solid #d81b60;
-    padding:26px  127px 26px 30px;
-    display: inline-block;
+.box.green{
+    border-left-color: #26a69a;
+}
+.box.orange{
+    border-left-color: #ff8f00;
+}
+.box.red{
+    border-left-color: #d81b60;
 }
 .sagmenu .ust .title  {
     margin-bottom: 11px;
@@ -143,10 +155,9 @@ background-color: #ffffff;
     line-height: 19px;
 }
 /* sag1 finish*/
-
 /* sag2 start */
 .sagmenu .alt {
-    padding: 0px 69px 75px 65px;
+    padding: 0px 69px 0px 65px;
     box-sizing: border-box;
 }
 
@@ -155,7 +166,7 @@ background-color: #ffffff;
     font-size: 32px;
     font-weight: 600;
     line-height: 19px;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 .sagmenu .alt .box1 {
     padding: 27px 22px 32px 22px;

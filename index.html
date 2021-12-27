@@ -20,7 +20,7 @@
     <aside class="solmenu">
         <div class="profil">
             <div class="resim">
-                <img src="https://via.placeholder.com/52">
+                <img src="https://via.placeholder.com/100">
                 <h1>Paul Fehr</h1>
             </div>
             <button>CREATE INVOICE</button>
@@ -38,7 +38,7 @@
                     <span>Invoices</span>
                 </a>
             </li>
-            <li>
+            <li class="active">
                 <a href="javascrpit:;">
                     <i class="fas fa-chart-line"></i>
                     <span>Reports</span>
@@ -62,34 +62,37 @@
         <!--sag1 start-->
         <div class="sagmenu">
             <div class="ust">
-                <div class="ust-title">
+                <header class="ust-title">
                     <h1>Dashboard</h1>
+                </header>
+                <div class="box-wrapper">
+                    <div class="box green">
+                        <h3 class="title">Settled</h3>
+                        <p class="money">$14,025</p>
+                        <a href="javascript:;"><span>12 invoices >></span></a>
+                    </div>
+                    <div class=" box orange">
+                        <h3 class="title">Outstanding Total</h3>
+                        <p class="money">$3400</p>
+                        <a href="javascript:;"><span>3 invoices >></span></a>
+                    </div>
+                    <div class="box red">
+                        <h3 class="title">Past Due Date</h3>
+                        <p class="money">$145</p>
+                        <a href="javascript:;"><span>1 invoices >></span></a>
+                    </div>
                 </div>
-                <div class="box1">
-                    <h3 class="title">Settled</h3>
-                    <p class="money">$14,025</p>
-                    <a href="javascript:;"><span>12 invoices >></span></a>
-                </div>
-                <div class="box2">
-                    <h3 class="title">Outstanding Total</h3>
-                    <p class="money">$3400</p>
-                    <a href="javascript:;"><span>3 invoices >></span></a>
-                </div>
-                <div class="box3">
-                    <h3 class="title">Past Due Date</h3>
-                    <p class="money">$145</p>
-                    <a href="javascript:;"><span>1 invoices >></span></a>
-                </div>
-                <div class="text">
+                <footer class="text">
                     <p>Consequat consectetuer interdum, urna felis pede senectus maecenas purus, eleifend neque leo eros dictum. Mauris dolor ornare sed. Massa at accumsan neque</p>
-                </div>
+                </footer>
             </div>
             <!--sag1 finish-->
+            <hr>
             <!--sag2 start-->
             <div class="alt">
-                <div class="alt-title">
+                <header class="alt-title">
                     <h1>Sent Invoices</h1>
-                </div>
+                </header>
                 <div class="box1">
                     <div class="listHeader">
                         <h1>Company Name</h1>
