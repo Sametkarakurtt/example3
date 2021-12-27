@@ -184,12 +184,10 @@ background-color: #ffffff;
     margin-bottom: 8px;
 }
 
-.sagmenu .alt time{
-    color: #263238;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 19px;
-    text-transform: uppercase;
+.sagmenu .alt .listHeader{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .sagmenu .alt .listHeader h1 {
     color: #263238;
@@ -204,10 +202,12 @@ background-color: #ffffff;
     font-weight: 600;
     line-height: 19px;
 }
-.sagmenu .alt .listHeader{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+
+.sagmenu .alt time{
+    color: #263238;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
 }
 .sagmenu .alt ul {
     list-style: none;
