@@ -90,12 +90,7 @@ background-color: #ffffff;
     line-height: 19px;
     margin-bottom: 27px;
 }
-.sagmenu  .ust .text p {
-    color: #263238;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 19px;
-}
+
 .sagmenu  .ust .box1{
     max-width: 271px;
     border: 1px solid #cfd8dc;
@@ -141,6 +136,12 @@ background-color: #ffffff;
     font-weight: 400;
     line-height: normal;
 }
+.sagmenu  .ust .text p {
+    color: #263238;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+}
 /* sag1 finish*/
 
 /* sag2 start */
@@ -182,13 +183,7 @@ background-color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.sagmenu .alt p {
-    color: #263238;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 19px;
-    text-transform: uppercase;
-}
+
 .sagmenu .alt time{
     color: #263238;
     font-size: 18px;
