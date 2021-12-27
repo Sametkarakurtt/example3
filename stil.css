@@ -191,7 +191,7 @@ background-color: #ffffff;
     line-height: 19px;
     text-transform: uppercase;
 }
-.sagmenu .alt h1 {
+.sagmenu .alt .listHeader h1 {
     color: #263238;
     font-size: 18px;
     font-weight: 600;
